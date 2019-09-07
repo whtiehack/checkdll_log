@@ -11,7 +11,7 @@ func main() {
 	proc, _ := syscall.GetProcAddress(h, "Showui")
 	_, _, _ = syscall.Syscall(proc, 0, 0, 0, 0)
 
-//	log.Print("main end")
-//	print("main end")
-//	fmt.Printf("main end")
+	log.Print("main end")
+	//	print("main end")
+	//	fmt.Printf("main end")
 }
