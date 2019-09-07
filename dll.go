@@ -16,7 +16,7 @@ func main() {
 func Showui() int {
 	// use print will fine.
 	print("show uid called\n")
-	// use log will panic .  If comment this line, multiple running organic rate error
+	// use log will panic .  If comment this line,  there is a probability of multiple runs.
 	log.Println("show ui called")
 	return 1
 }
