@@ -7,7 +7,7 @@ import (
 
 func main() {
 	log.Print("main start")
-	h, err := syscall.LoadLibrary("test.dll")
+	h, err := syscall.LoadLibrary("dll/test.dll")
 	if err != nil {
 		log.Panic("load test.dll error")
 	}
